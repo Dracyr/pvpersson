@@ -6,10 +6,11 @@ set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
 set :data_dir, 'assets/data'
 
-set :layouts_dir, 'views/layouts'
-set :partials_dir, 'views/partials'
+#set :layouts_dir, 'views/layouts'
+#set :partials_dir, 'views/partials'
 
 set :protect_from_csrf, true
+set :layout, :default
 
 activate :directory_indexes
 
@@ -87,6 +88,7 @@ end
 # Deploy settings
 activate :deploy do |deploy|
   deploy.method = :git
+  deploy.build_before = true
   # Optional Settings
   # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
   # deploy.branch   = 'custom-branch' # default: gh-pages
