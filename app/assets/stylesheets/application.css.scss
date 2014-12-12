@@ -1,8 +1,29 @@
-@import "compass";
-@import "bootstrap-sprockets";
-@import "bootstrap";
+//@import "compass";
+//@import "bootstrap-sprockets";
+//@import "bootstrap";
+// Add Open Sans font
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
   padding-top: 60px;
   padding-bottom: 40px;
+  background-color: #18D0BF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.greetings-box {
+  background-color: #18D0BF;
+}
+
+.greetings-text {
+  color: #FFF;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  text-align: center;
+  h1 {
+    font-size: 120px;
+  }
+  p {
+    font-size: 20px;
+  }
 }
