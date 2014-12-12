@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/* line 7, /home/per-victor/git/projekt/pvpersson/app/assets/stylesheets/application.css.scss */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #18D0BF;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 14, /home/per-victor/git/projekt/pvpersson/app/assets/stylesheets/application.css.scss */
+.greetings-box {
+  background-color: #18D0BF; }
+
+/* line 18, /home/per-victor/git/projekt/pvpersson/app/assets/stylesheets/application.css.scss */
+.greetings-text {
+  color: #FFF;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  text-align: center; }
+  /* line 23, /home/per-victor/git/projekt/pvpersson/app/assets/stylesheets/application.css.scss */
+  .greetings-text h1 {
+    font-size: 120px; }
+  /* line 26, /home/per-victor/git/projekt/pvpersson/app/assets/stylesheets/application.css.scss */
+  .greetings-text p {
+    font-size: 20px; }
