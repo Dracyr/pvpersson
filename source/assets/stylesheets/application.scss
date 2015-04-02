@@ -1,0 +1,77 @@
+@charset "utf-8";
+//$brand-primary:   #e74c3c;
+//$brand-secondary: #c0392b;
+$brand-primary:   #2ecc71;
+$brand-secondary: #27ae60;
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'timeline';
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic);
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.greetings-text {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+
+  h1 { font-size: 120px; }
+  p  { font-size: 20px; }
+}
+
+.greetings-container {
+  background-color: $brand-primary;
+  color: #FFF;
+  height: 440px;
+}
+
+.info-container {
+  padding-left:  40px;
+  padding-right: 40px;
+
+  height: 440px;
+
+  text-align: center;
+  .profile-img {
+    width: 180px;
+    margin-top: 30px;
+  }
+
+  .info-table {
+    margin-top: 50px;
+  }
+}
+
+.timeline-container {
+  height: 350px;
+}
+
+.cv-container {
+  color: #FFF;
+  height: 350px;
+
+  background-color: $brand-secondary;
+
+  font-size: 1.7em;
+  .courses {
+    font-size: 0.8em;
+    ul li {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.projects-container {
+  color: #FFF;
+  background-color: $brand-primary;
+  height: 300px;
+}

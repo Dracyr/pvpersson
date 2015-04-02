@@ -1,0 +1,105 @@
+<div class="row">
+  <div class="col-md-8 greetings-container">
+    <div class='greetings-text'>
+      <h1>Hejsan :)</h1>
+      <p>Här hade det kunnat stå en massa häftiga saker, men det gör det inte!</p>
+      <!-- Snart kanske det gör det! -->
+    </div>
+  </div>
+  <div class="col-md-4 info-container">
+    <%= image_tag 'lion_head.png', width: '180', class: 'profile-img img-circle' %>
+    <h3>Per-Victor Persson</h3>
+    <table class="table info-table">
+      <tr>
+        <td>Email: </td>
+        <td><%= link_to 'dracyr@gmail.com', 'mailto:dracyr@gmail.com', target: '_blank' %></td>
+      </tr>
+      <tr>
+        <td>LinkedIn</td>
+        <td><%= link_to 'Per-Victor Persson', 'se.linkedin.com/in/pvpersson' %></td>
+      </tr>
+      <tr>
+        <td>GitHub</td>
+        <td><%= link_to 'dracyr', 'https://github.com/Dracyr' %></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-5 timeline-container">
+    <ul class="timeline">
+        <li>
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-user"></i></div>
+          <div class="timeline-panel">
+            Föddes
+            <div class="timeline-lead">1993</div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-blackboard"></i></div>
+          <div class="timeline-panel">
+            Började läsa
+            <%= link_to 'Datateknik', 'http://www.lth.se/utbildning/datateknik300', target: '_blank' %>
+            på LTH
+            <div class="timeline-lead">2012-</div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+          <div class="timeline-panel">
+            Byggde IT-System i <%= link_to 'Lundakarnevalen', 'http://www.lundakarnevalen.se/', target: '_blank' %>
+            <div class="timeline-lead">2014</div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+          <div class="timeline-panel">
+            Anställd på
+            <%= link_to 'Lunicore', 'http://www.lunicore.se/', target: '_blank' %>
+            <div class="timeline-lead">2014-</div>
+          </div>
+        </li>
+    </ul>
+  </div>
+  <div class="col-md-7 cv-container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2>Kompetenser</h2>
+          <ul>
+            <li>Webb
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>PHP</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+            </ul>
+            </li>
+            <li>Java</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="courses">
+            <h3>Kurser</h3>
+            <ul>
+              <li>EDA260 - Programvaruutveckling i grupp</li>
+              <li>EDAF05 - Algoritmer, datastrukturer och komplexitet</li>
+              <li>EIT060 - Datorsäkerhet</li>
+              <li>TEK210 - Kognition</li>
+            </ul>
+            <div class="pull-right">
+              Visa alla kurser
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="projects-container">
+  <div class="container">
+    <h1>Projekt</h1>
+
+  </div>
+</div>
